@@ -17,7 +17,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ffbcef(0, 0%, 100%);
+  background-color: #ffbcef;
 }
 
 h1 {
@@ -68,7 +68,7 @@ aside h2 {
 aside {
   width: 300px;
   margin: 30px auto;
-  border: 2px solid #bebebe;
+  border: 2px solid #767676;
   padding: 10px;
   background-color: #ececec(0, 0%, 77%);
   color: #000000;
