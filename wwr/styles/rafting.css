@@ -1,6 +1,6 @@
 :root {
   --primary-color: #0077b6;
-  --secondary-color: #90e0ef;
+  --secondary-color: #0077b6;
   --accent1-color: #023e8a;
   --accent2-color: #caf0f8;
   --heading-font: "Merriweather", "Georgia", serif;
@@ -58,6 +58,7 @@ nav a:hover {
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 14px;
 }
 
 h1 {
@@ -71,15 +72,16 @@ h1 {
   color: var(--accent1-color); 
 }
 
-
 .hero article {
   position: absolute;
   bottom: 30px;
   left: 30px;
   right: 30px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
   padding: 16px;
+  border: 2px solid var(--accent1-color);
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .hero article img {
@@ -92,33 +94,31 @@ h1 {
 
 
 footer {
-  background-color: var(--primary-color);
-  color: white;
-  text-align: center;
-  padding: 20px;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-footer p {
-  margin-bottom: 10px;
+footer .socialmedia {
+  display: flex;
+  gap: 15px;
 }
 
 footer .socialmedia img {
   width: 30px;
-  margin: 0 5px;
-  vertical-align: middle;
-  display: flex;
-  gap: 10px;
-  justify-content: flex-end;
 }
 
 header {
   display: grid;
   grid-template-columns: 150px 1fr;
   align-items: center;
-  padding: 10px 0;
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-bottom: 3px solid var(--accent1-color);
 }
 
 header img {
@@ -128,14 +128,35 @@ header img {
 
 header nav {
   display: flex;
-  justify-content: flex-end;
-  gap: 20px;
+  justify-content: center;
+  gap: 30px;
+}
+
+header nav a {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px solid var(--accent1-color);
+}
+
+.history {
+  background: white;
+  padding: 30px;
+  border: 2px solid var(--accent1-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.history h2 {
+  text-align: center;
+  font-family: var(--heading-font);
 }
 
 .history-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 200px 1fr;
+  gap: 10px;
   align-items: center;
 }
 
@@ -144,10 +165,22 @@ header nav {
   border-radius: 10px;
 }
 
+.adventures {
+  background: white;
+  padding: 30px;
+  border: 2px solid var(--accent1-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.adventures h2 {
+  text-align: center;
+  font-family: var(--heading-font);
+}
+
 .adventure-gallery {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 15px;
   margin-top: 15px;
 }
 
@@ -160,6 +193,7 @@ header nav {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
 
 .adventure-gallery figcaption {
