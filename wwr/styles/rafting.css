@@ -201,3 +201,160 @@ header nav a {
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+.company-info {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.company-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.company-info p a {
+  text-decoration: none;
+}
+
+.contact-grid {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 0 1rem;
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.map-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contact-form-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form .form-field {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.35rem;
+  border: 1px solid #ccc;
+  font: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.contact-form legend {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.contact-form fieldset label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.checkbox-field label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 400;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #5b6cd8;  
+  color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #4856aa;
+}
+
+.team-section {
+  text-align: center;
+  padding: 2rem 1rem 3rem;
+  background-color: #f7f7fb;
+}
+
+.team-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+
+.employee-grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.employee-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  flex: 1 1 220px;
+  max-width: 260px;
+}
+
+.employee-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+.employee-card figcaption {
+  font-size: 0.95rem;
+}
+
+nav a.active {
+  font-weight: 700;
+  text-decoration: underline;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Get in touch with White Water Rafting Adventures. Contact us for questions about our trips, services, and availability">
+    <meta name="author" content="Kaylee Godfrey">
+    <title>Contact Us | White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting_logo.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h2>White Water Rafting Company</h2>
+            <p>123 Main River Street<br>
+                Kolob, California<br>
+                +1 999 999 9999<br>
+                info@whitewater.com</p>
+        </section>
+
+        <section class="contact-grid">
+
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact-form-card">
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-field">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <fieldset class="form-field">
+                        <legend>Message Purpose</legend>
+                        <label>
+                            <input type="radio" name="purpose" value="general-inquiry" checked>
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation-question">
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="website-suggestion">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-field checkbox-field">
+                        <label for="subscribe">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-primary">
+                        Get in Touch!
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-grid">
+                <figure class="employee-card">
+                    <img src="images/man-5987532_640.jpg" alt="Employee Profile">
+                    <figcaption>
+                        <strong>Alex Johnson</strong><br>
+                        Head River Guide
+                    </figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/woman-5667299_640.jpg" alt="Employee Profile">
+                    <figcaption>
+                        <strong>Sarah Larsen</strong><br>
+                        Reservations Manager
+                    </figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/woman-6401957_640.jpg" alt="Employee Profile">
+                    <figcaption>
+                        <strong>Jessie Martin</strong><br>
+                        Guest Services Director
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting Adventures | Designed by Kaylee Godfrey</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com"><img src="images/facebook-square.svg" alt="Facebook"></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin-square.svg" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram-square.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
