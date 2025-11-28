@@ -24,7 +24,7 @@
 
     <main>
         <section class="company-info">
-            <h2>White Water Rafting Company</h2>
+            <h1>White Water Rafting Company</h1>
             <p>123 Main River Street<br>
                 Kolob, California<br>
                 +1 999 999 9999<br>
@@ -52,18 +52,21 @@
 
                     <fieldset class="form-field">
                         <legend>Message Purpose</legend>
-                        <label>
-                            <input type="radio" name="purpose" value="general-inquiry" checked>
-                            General Inquiry
-                        </label>
-                        <label>
-                            <input type="radio" name="purpose" value="reservation-question">
-                            Reservation Question
-                        </label>
-                        <label>
-                            <input type="radio" name="purpose" value="website-suggestion">
-                            Website Suggestion
-                        </label>
+
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-general" name="purpose" value="general-inquiry" checked>
+                            <label for="purpose-general">General Inquiry</label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation-question">
+                            <label for="purpose-reservation">Reservation Question</label>
+                        </div>
+
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-website" name="purpose" value="website-suggestion">
+                            <label for="purpose-website">Website Suggestion</label>
+                        </div>
                     </fieldset>
 
                     <div class="form-field">

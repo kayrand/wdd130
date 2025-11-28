@@ -207,7 +207,7 @@ header nav a {
   margin: 2rem auto;
 }
 
-.company-info h2 {
+.company-info h1 {
   margin-bottom: 0.5rem;
 }
 
@@ -303,13 +303,13 @@ header nav a {
   border: none;
   font-weight: 600;
   cursor: pointer;
-  background-color: #5b6cd8;  
+  background-color: var(--primary-color);  
   color: #ffffff;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #4856aa;
+  background-color: var(--primary-color);
 }
 
 .team-section {
@@ -357,4 +357,8 @@ header nav a {
 nav a.active {
   font-weight: 700;
   text-decoration: underline;
+}
+
+.radio-option {
+  margin-bottom: 0.25rem;
 }
