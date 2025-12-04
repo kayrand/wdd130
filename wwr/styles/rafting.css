@@ -544,3 +544,123 @@ text-align: center;
 padding: 1rem;
 margin-top: 2rem;
 }
+
+/* =======================
+TRIPS PAGE STYLES
+======================= */
+
+/* Call to Action Section */
+.trips-cta {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--accent2-color);
+  border-bottom: 2px solid var(--accent1-color);
+  margin-bottom: 2rem;
+}
+
+.trips-cta h1 {
+position: absolute;
+top: 20%;
+left: 0%;
+width: 100%;
+text-align: center;
+color: var(--accent1-color);
+font-size: 2.75rem;
+font-family: var(--heading-font);
+padding: 10px;
+border-radius: 8px;
+background-color: #caf0f8;
+}
+
+.trips-cta p {
+  font-size: 1.25em;
+  margin-bottom: 1rem;
+}
+
+.trips-cta .cta-btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid var(--accent1-color);
+}
+
+.trips-cta .cta-btn:hover {
+  background-color: var(--accent1-color);
+}
+
+/* Trip Card Grid Layout */
+.trip-grid {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.trip-card {
+  background: white;
+  border: 2px solid var(--accent1-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding-bottom: 1rem;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.trip-card h2 {
+  font-family: var(--heading-font);
+  color: var(--accent1-color);
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.trip-card p {
+  margin: 0 1rem 1.2rem;
+  color: #444;
+}
+
+/* Trips Table */
+.trip-table-section {
+  max-width: 1000px;
+  margin: 2rem auto 4rem;
+  padding: 2rem;
+  background: white;
+  border: 2px solid var(--accent1-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.trip-table-section h2 {
+  text-align: center;
+  font-family: var(--heading-font);
+  margin-bottom: 1.5rem;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid var(--accent1-color);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.trip-table th {
+  background: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+}
